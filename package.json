@@ -1,7 +1,7 @@
 {
   "name": "driven.t-back",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back-end for Driven.t, an event management solution.",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
@@ -67,7 +67,7 @@
     "supertest": "^6.2.3",
     "ts-jest": "^26.5.5",
     "ts-node": "^10.7.0",
-    "tsconfig-paths": "3.9.0",
+    "tsconfig-paths": "^3.9.0",
     "ttypescript": "^1.5.13",
     "typescript": "^4.2.4",
     "typescript-transform-paths": "2.2.3"
@@ -88,5 +88,16 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "reflect-metadata": "^0.1.13"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishiyama13/drivent__t10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nishiyama13/drivent__t10/issues"
+  },
+  "homepage": "https://github.com/Nishiyama13/drivent__t10#readme"
 }
